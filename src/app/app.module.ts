@@ -22,6 +22,7 @@ import { ENV_PROVIDERS } from './environment';
 // import { ROUTES } from './app.routes';
 // App is our top level component
 import { AppComponent } from './app.component';
+import { HeroDetailComponent } from './hero-detail.component';
 // import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 // import { AppState, InternalStateType } from './app.service';
 // import { HomeComponent } from './home';
@@ -51,7 +52,8 @@ type StoreType = {
 @NgModule({
 	bootstrap: [ AppComponent ],
 	declarations: [
-		AppComponent
+		AppComponent,
+		HeroDetailComponent
 		// ,AboutComponent,
 		// HomeComponent,
 		// NoContentComponent,
